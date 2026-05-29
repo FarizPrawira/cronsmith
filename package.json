@@ -1,6 +1,6 @@
 {
   "name": "cronsmith",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fluent, type-safe, zero-runtime-dependency cron expression builder for TypeScript and JavaScript.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -30,7 +30,14 @@
     "postversion": "git push --follow-tags",
     "prepublishOnly": "npm run verify"
   },
-  "keywords": ["cron", "crontab", "scheduler", "builder", "fluent", "typescript"],
+  "keywords": [
+    "cron",
+    "crontab",
+    "scheduler",
+    "builder",
+    "fluent",
+    "typescript"
+  ],
   "author": "Fariz Prawira <farizprawira94@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -41,7 +48,9 @@
     "url": "https://github.com/FarizPrawira/cronsmith/issues"
   },
   "homepage": "https://github.com/FarizPrawira/cronsmith#readme",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "@types/node": "^22.0.0",
     "@vitest/coverage-v8": "^4.1.6",
